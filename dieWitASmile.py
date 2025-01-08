@@ -15,7 +15,7 @@ def print_lyrics():
         "right next to you",
     ]
 
-    delays = [0.6,0.7,1.0,4.6,1.0,3.6,1.7,2.0,0.9,1.2,0.5]
+    delays = [0.6,0.6,1.0,2.6,1.0,2.6,1.7,2.0,0.9,1.2,0.5]
     for i,line in enumerate(lines):
         for char in line:
             print(char, end='', flush=True)
